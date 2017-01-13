@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listheader_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:hint="Section header"
+        android:textStyle="bold"
+
+        />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/listheader_tv"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/down_arrow"
+        android:id="@+id/listheader_iv"
+        android:layout_centerVertical="true"
+        android:layout_alignBottom="@id/listheader_tv"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:paddingTop="2dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/listheader_tv"
+        />
+
+
+
+</RelativeLayout>
